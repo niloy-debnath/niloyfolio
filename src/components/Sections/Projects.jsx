@@ -4,6 +4,16 @@ import { Github, ExternalLink, Folder } from "lucide-react";
 
 const projects = [
   {
+    title: "Loan Link",
+    description:
+      "A full-stack loan management and financial service platform that connects borrowers, managers, and administrators through a role-based dashboard system. Users can apply for loans, track approval status, make secure Stripe payments, and manage loan records. The platform features secure authentication, protected routes, real-time data handling, and a responsive UI designed for modern banking workflows.",
+    tech: ["React", "Express", "MongoDB", "Firebase", "Stripe", "Tailwind CSS"],
+    github: "https://github.com/niloy-debnath/loan-link-client.git",
+    live: "https://loanlink-client-azure.vercel.app/",
+    screenshot:
+      "https://i.ibb.co.com/your-https://i.ibb.co.com/m76dnds/screenshot-1766507001179.png-screenshot.png",
+  },
+  {
     title: "Amar Rokto",
     description:
       "A full-stack blood donation platform that connects donors with recipients in real time. Users can register as donors, search for available blood groups, request urgent donations, and manage their profiles. The platform includes secure authentication, responsive UI, and optimized donor-matching features tailored for Bangladesh.",
